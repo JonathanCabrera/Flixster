@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E817B07A20E466AD00330082 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E817B07920E466AD00330082 /* MoviesViewController.m */; };
 		E8B5B33820E40AD30089FAD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B5B33720E40AD30089FAD8 /* AppDelegate.m */; };
 		E8B5B33B20E40AD30089FAD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B5B33A20E40AD30089FAD8 /* ViewController.m */; };
 		E8B5B33E20E40AD30089FAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B5B33C20E40AD30089FAD8 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E817B07820E466AD00330082 /* MoviesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
+		E817B07920E466AD00330082 /* MoviesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
 		E8B5B33320E40AD20089FAD8 /* Flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B5B33620E40AD30089FAD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8B5B33720E40AD30089FAD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,11 +65,13 @@
 				E8B5B33720E40AD30089FAD8 /* AppDelegate.m */,
 				E8B5B33920E40AD30089FAD8 /* ViewController.h */,
 				E8B5B33A20E40AD30089FAD8 /* ViewController.m */,
+				E817B07820E466AD00330082 /* MoviesViewController.h */,
+				E817B07920E466AD00330082 /* MoviesViewController.m */,
 				E8B5B33C20E40AD30089FAD8 /* Main.storyboard */,
-				E8B5B33F20E40AD40089FAD8 /* Assets.xcassets */,
 				E8B5B34120E40AD40089FAD8 /* LaunchScreen.storyboard */,
-				E8B5B34420E40AD40089FAD8 /* Info.plist */,
 				E8B5B34520E40AD40089FAD8 /* main.m */,
+				E8B5B34420E40AD40089FAD8 /* Info.plist */,
+				E8B5B33F20E40AD40089FAD8 /* Assets.xcassets */,
 			);
 			path = Flixster;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 				E8B5B33B20E40AD30089FAD8 /* ViewController.m in Sources */,
 				E8B5B34620E40AD40089FAD8 /* main.m in Sources */,
 				E8B5B33820E40AD30089FAD8 /* AppDelegate.m in Sources */,
+				E817B07A20E466AD00330082 /* MoviesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
