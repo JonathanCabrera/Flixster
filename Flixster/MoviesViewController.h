@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MoviesViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 @end
